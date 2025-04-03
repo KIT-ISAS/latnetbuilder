@@ -75,7 +75,7 @@ struct defaultPerLevelOrder<LatticeType::DIGITAL, EmbeddingType::MULTILEVEL>{
  *
  * 
  *
- * - For (simple) ordinary lattice rules with modulud \f$n\f$:
+ * - For (simple) ordinary lattice rules with modulus \f$n\f$:
  * The kernel values are stored in the natural order: the ith value \f$w_i\f$ is \f$w(i/n)\f$.
  * A Stride with parameter \f$a \in \mathbb{N}\f$ is the mapping that maps an index \f$i\f$ to \f$a \times i \mod n\f$.
  *  
